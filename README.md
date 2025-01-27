@@ -4,6 +4,13 @@
 # nos pongamos de acuerdo que es lo que vamos hacer cada uno.
 
 
+# TITANIC
+
+## Acerca de este proyecto
+
+El objetivo de este proyecto es aprender a usar git con ejemplo de Titanic.
+
+
 1. Título del Proyecto
 
 Nombre claro y conciso: Por ejemplo, "Análisis de Supervivientes del Titanic con Streamlit"
@@ -33,5 +40,8 @@ Visualizaciones: ¿Qué tipos de visualizaciones se incluyen? (histogramas, grá
 Interactividad: ¿Cómo puede el usuario interactuar con la aplicación? (filtros, selectores, etc.)
 
 Análisis clave: ¿Cuáles son los hallazgos más importantes del análisis?
+
+
+# Esta es la aportacion de Andrés Felipe
 
 
