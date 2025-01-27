@@ -45,3 +45,15 @@ Análisis clave: ¿Cuáles son los hallazgos más importantes del análisis?
 # Esta es la aportacion de Andrés Felipe Bustillo
 
 
+README.md: Análisis de Supervivientes del Titanic con Streamlit
+
+ # Introducción
+Objetivo: Predecir la supervivencia de pasajeros en el Titanic utilizando técnicas de aprendizaje automático.
+Datos: Utilizaremos el dataset del Titanic disponible en Kaggle para entrenar y evaluar nuestros modelos.
+Herramientas: Streamlit para crear una aplicación web interactiva, Python para el análisis de datos y aprendizaje automático.
+# Estructura del proyecto
+notebooks: Contiene los notebooks de Jupyter donde se realiza el análisis de datos, la limpieza, la exploración y el entrenamiento de los modelos.
+src: Contiene el código fuente de la aplicación Streamlit, incluyendo las visualizaciones y la lógica de la aplicación.
+data: Contiene los datos utilizados en el proyecto, tanto los datos originales como los procesados.
+models: Contiene los modelos entrenados que se utilizarán para hacer predicciones.
+
