@@ -1,59 +1,81 @@
-# Grupò 3: Ángel R, Andrés F & Jesús
+# Análisis de Supervivientes del Titanic con Streamlit
 
-# Vale chicos he echo copia pega de la tarea, estaria bien que 
-# nos pongamos de acuerdo que es lo que vamos hacer cada uno.
+## Descripción
+Una aplicación interactiva para explorar y analizar los factores que influyeron en la supervivencia de los pasajeros del Titanic.
 
+## Introducción
+El RMS Titanic fue un transatlántico británico que se hundió en su viaje inaugural en 1912, convirtiéndose en uno de los desastres marítimos más famosos de la historia. El conjunto de datos del Titanic se ha convertido en un recurso clásico para el análisis de datos y el aprendizaje automático, permitiendo explorar factores sociales, económicos y demográficos que pudieron influir en la supervivencia de los pasajeros.
 
-# TITANIC
+### Objetivo del Proyecto
+Este proyecto busca responder preguntas clave como:
+- ¿Qué factores socioeconómicos influyeron en la supervivencia?
+- ¿Existió un sesgo de género o edad en las tasas de supervivencia?
+- ¿Cómo influyó la clase del pasajero en sus posibilidades de sobrevivir?
 
-## Acerca de este proyecto
+### Alcance del Proyecto
+El análisis incluye:
+- Análisis exploratorio de datos
+- Visualizaciones interactivas
+- Estadísticas descriptivas
+- Correlaciones entre variables
 
-El objetivo de este proyecto es aprender a usar git con ejemplo de Titanic.
+## Datos Utilizados
 
+### Fuente de Datos
+Los datos provienen de la competencia "Titanic: Machine Learning from Disaster" de Kaggle.
 
-1. Título del Proyecto
+### Descripción del Dataset
+- Número de registros: 891 pasajeros
+- Variables principales:
+  - Survived: Supervivencia (0 = No, 1 = Sí)
+  - Pclass: Clase del pasajero (1, 2, 3)
+  - Name: Nombre del pasajero
+  - Sex: Género
+  - Age: Edad
+  - SibSp: Número de hermanos/cónyuges a bordo
+  - Parch: Número de padres/hijos a bordo
+  - Ticket: Número de ticket
+  - Fare: Tarifa pagada
+  - Cabin: Número de cabina
+  - Embarked: Puerto de embarque
 
-Nombre claro y conciso: Por ejemplo, "Análisis de Supervivientes del Titanic con Streamlit"
+### Preprocesamiento de Datos
+- Manejo de valores faltantes en edad mediante imputación
+- Codificación de variables categóricas
+- Normalización de variables numéricas
+- Creación de nuevas características
 
-Subtítulo (opcional): Una breve descripción del objetivo principal del proyecto.
+## Funcionalidades de la Aplicación
 
-2. Introducción
+### Visualizaciones
+- Distribución de supervivencia por clase
+- Pirámide poblacional por edad y género
+- Análisis de tarifas por clase
+- Tasas de supervivencia por puerto de embarque
+- Correlación entre variables numéricas
 
-Breve resumen: Explica qué es el Titanic y por qué es un conjunto de datos popular para análisis.
+### Interactividad
+- Filtros por clase de pasajero
+- Selectores de variables para visualización
+- Rangos de edad ajustables
+- Opciones de agrupación de datos
 
-Objetivo del proyecto: ¿Qué preguntas se buscan responder con este análisis? (e.g., ¿Qué factores influyeron en la supervivencia?)
+### Hallazgos Clave
+- Mayor tasa de supervivencia en primera clase
+- Las mujeres tuvieron mayor probabilidad de sobrevivir
+- Los niños tuvieron prioridad en el rescate
+- El puerto de embarque influyó en la supervivencia
 
-Alcance del proyecto: ¿Qué aspectos del dataset se exploran? ¿Qué técnicas se utilizan?
+## Instalación y Uso
 
-3. Datos Utilizados
+1. Clonar el repositorio
+2. Instalar dependencias: `pip install -r requirements.txt`
+3. Ejecutar la aplicación: `streamlit run app.py`
 
-Fuente de los datos: De dónde se obtuvieron los datos (Kaggle, etc.)
-
-Descripción general del dataset: Número de filas, columnas, variables principales.
-
-Limpieza y preprocesamiento: Breve descripción de las tareas realizadas para preparar los datos para el análisis (manejo de valores faltantes, transformación de variables, etc.).
-
-4. Funcionalidades de la Aplicación
-
-Visualizaciones: ¿Qué tipos de visualizaciones se incluyen? (histogramas, gráficos de barras, diagramas de dispersión, etc.)
-
-Interactividad: ¿Cómo puede el usuario interactuar con la aplicación? (filtros, selectores, etc.)
-
-Análisis clave: ¿Cuáles son los hallazgos más importantes del análisis?
-
-
-# Esta es la aportacion de Andrés Felipe Bustillo
-
-
-README.md: Análisis de Supervivientes del Titanic con Streamlit
-
- # Introducción
-Objetivo: Predecir la supervivencia de pasajeros en el Titanic utilizando técnicas de aprendizaje automático.
-Datos: Utilizaremos el dataset del Titanic disponible en Kaggle para entrenar y evaluar nuestros modelos.
-Herramientas: Streamlit para crear una aplicación web interactiva, Python para el análisis de datos y aprendizaje automático.
-# Estructura del proyecto
-notebooks: Contiene los notebooks de Jupyter donde se realiza el análisis de datos, la limpieza, la exploración y el entrenamiento de los modelos.
-src: Contiene el código fuente de la aplicación Streamlit, incluyendo las visualizaciones y la lógica de la aplicación.
-data: Contiene los datos utilizados en el proyecto, tanto los datos originales como los procesados.
-models: Contiene los modelos entrenados que se utilizarán para hacer predicciones.
+## Tecnologías Utilizadas
+- Python
+- Pandas
+- Streamlit
+- Plotly
+- Seaborn
 
