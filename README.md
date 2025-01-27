@@ -38,6 +38,7 @@ Los datos provienen de la competencia "Titanic: Machine Learning from Disaster" 
   - Fare: Tarifa pagada
   - Cabin: Número de cabina
   - Embarked: Puerto de embarque
+  - Otros
 
 ### Preprocesamiento de Datos
 - Manejo de valores faltantes en edad mediante imputación
@@ -77,5 +78,3 @@ Los datos provienen de la competencia "Titanic: Machine Learning from Disaster" 
 - Pandas
 - Streamlit
 - Plotly
-- Seaborn
-
