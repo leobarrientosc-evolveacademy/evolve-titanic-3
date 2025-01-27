@@ -42,6 +42,6 @@ Interactividad: ¿Cómo puede el usuario interactuar con la aplicación? (filtro
 Análisis clave: ¿Cuáles son los hallazgos más importantes del análisis?
 
 
-# Esta es la aportacion de Andrés Felipe
+# Esta es la aportacion de Andrés Felipe Bustillo
 
 
