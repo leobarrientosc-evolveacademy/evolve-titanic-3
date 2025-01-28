@@ -6,9 +6,9 @@ name = "pypi"
 [packages]
 streamlit = "*"
 pandas = "*"
-colorama = "*"
+plotly = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.11"
+python_version = "3.13"
