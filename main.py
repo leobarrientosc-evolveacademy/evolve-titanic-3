@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import colorama
 
 
 titanic = pd.read_csv("titanic.csv")
